@@ -1,6 +1,6 @@
 ### Prerequesite
 1. [Visual Studio](https://visualstudio.microsoft.com/downloads/)
-2. [Python](https://www.python.org/downloads/)
+2. [Python2](https://www.python.org/downloads/)
 3. [Metasploit Framework](https://www.metasploit.com/download)
 
 ### Initiate
