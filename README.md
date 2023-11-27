@@ -1,7 +1,7 @@
 ### Prerequesite
-1. Visual Studio
-2. Python
-3. Metasploit Framework
+1. [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+2. [Python](https://www.python.org/downloads/)
+3. [Metasploit Framework](https://www.metasploit.com/download)
 
 ### Initiate
 ##### Generate Shellcode
@@ -28,5 +28,7 @@ printCiphertext(xor("CreateRemoteThread", "password"))
 
 ### Execute
 1. Run `compiler.bat` to compile all of them, then you will have `malware.exe`
-2. Run the listener (such as [Netcat](https://github.com/diegocr/netcat/) tool)
+2. Run the listener (such as [Netcat] (https://github.com/diegocr/netcat/) tool)
 3. Run `malware.exe`
+
+***All stuffs are only for education purpose!***
